@@ -301,9 +301,10 @@ You need to
 
 1. create a new project directory. The project does not need to be located in the file system of Ubuntu. You can put it anywhere you want but do remember the path of it.
 2. create `CMakeList.txt` and do as we have said in [Use Clion to code in WSL](#Use-VSCode-to-code-in-WSL).
-3. open your VSCode, and click `File / Open Folder` to open your project file.
-4. click the button which looks like two A4 overlapping each other. Left of your screen will show files and sub-directories in your project. You can click any of it and edit it.
-5. open your VSCode terminal, and type in `wsl` to use WSL. When you are in your WSL, type `make`. If everything about your project is done, there will be a `minivim` executable(I don't know how to call an executable in Linux, maybe its name is not executable) in your `bin` sub-directory.
+3. Change the source file(like hello.cpp) to meet your own demand.
+4. open your VSCode, and click `File / Open Folder` to open your project file.
+5. click the button which looks like two A4 overlapping each other. Left of your screen will show files and sub-directories in your project. You can click any of it and edit it.
+6. open your VSCode terminal, and type in `wsl` to use WSL. When you are in your WSL, type `cmake .`. If everything about your project is done, there will be a `minivim` executable(I don't know how to call an executable in Linux, maybe its name is not executable) in your `bin` sub-directory.
 
 ### <a id = "5.4"> Ncurses Install </a>
 
